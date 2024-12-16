@@ -2,6 +2,7 @@
 - name: Create Ansible folder
   hosts: all
   become: true
+  become_user: "{{ ansible_user }}"
 
   tasks:
     - name: Create ansible directory
