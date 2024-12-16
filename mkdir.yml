@@ -6,4 +6,4 @@
 
   tasks:
     - name: Create ansible directory
-      command: sudo mkdir /home/eid-admin/ansible_awx
+      command: whoami
