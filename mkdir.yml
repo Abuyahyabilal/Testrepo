@@ -5,4 +5,4 @@
 
   tasks:
     - name: Create ansible directory
-      command: mkdir /home/ubuntu/ansible
+      command: sudo mkdir /home/eid-admin/ansible_awx
